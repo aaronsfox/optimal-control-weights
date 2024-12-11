@@ -15,7 +15,7 @@ The following steps describe the processes and code (see **Code** section below)
 1. Download the archive of participant data from [this link](https://doi.org/10.6084/m9.figshare.7734767). 
 2. Create a `raw` folder in the `data` directory and unzip each participants data into this folder. Each participant should therefore have their own folder within the `raw` directory (e.g. `data\\raw\\2014001`) that contains the `.c3d` files from Schreiber & Moissenet (2019). The participant folder should simply contain all of the individual `.c3d` files for that participant to be appropriately extracted (e.g. `data\\raw\\2014001\\2014001_C1_01.c3d`).
 3. Run the **`extractData.py`** script. This will extract and convert the necessary experimental `.c3d` files from the raw folder into individual participant folders within this directory. Note that only the self-selected preferred (C4) speed is extracted. The script also only extracts data for participants who have a viable walking trial for the selected conditions — with a viable trial deemed as those including a gait cycle where each foot contacted a separate force plate. One viable trial is randomly selected from each participant from the selected conditions (i.e. C4) to be used in subsequent analyses. After this you may delete the `raw` folder as it will no longer be used.
-4. **[TODO: data processing scripts]**
+4. **[TODO: data processing scripts]** *- inputs for different weights to make it easy to run on HPC*
 
 ## Code
 
