@@ -426,19 +426,50 @@ for participant in participantList:
         # Adjust the model
         # -------------------------------------------------------------------------
 
+        # Load the scaled model back in
+        scaledModel = osim.Model(
+            os.path.join('..', 'data', participant, 'scaling', f'{participant}_scaledModelAdjusted.osim'))
+
+        # Set model name
+        scaledModel.setName(participant)
+
+        # Scale model muscle forces according to height-mass relationship
+
+        # Get generic model mass and set generic height
+        genModel = osim.Model(os.path.join('..', 'model', 'Uhlrich2022_SchreiberMoissenet2019.osim'))
+        genModelMass = np.sum([genModel.getBodySet().get(bodyInd).getMass() for bodyInd in range(genModel.getBodySet().getSize())])
+        genModelHeight = 1.70
+
+        # Get scaled model height (use mass from earlier)
+        heightM = anthropometrics.loc[anthropometrics['subjectID'] == int(participant),]['height'].values[0]
+        massKg = anthropometrics[anthropometrics['subjectID'] == int(participant)]['mass'].values[0]
+
+        # Get muscle volume totals based on mass and heights with linear equation
+        genericMuscVol = 47.05 * genModelMass * genModelHeight + 1289.6
+        scaledMuscVol = 47.05 * massKg * heightM + 1289.6
+
+        # Loop through all muscles and scale according to volume and muscle parameters
+        # Use this opportunity to also update contraction velocity
+        for muscInd in range(scaledModel.getMuscles().getSize()):
+            # Get current muscle name
+            muscName = scaledModel.getMuscles().get(muscInd).getName()
+            # Get optimal fibre length for muscle from each model
+            genericL0 = genModel.getMuscles().get(muscName).getOptimalFiberLength()
+            scaledL0 = scaledModel.getMuscles().get(muscName).getOptimalFiberLength()
+            # Set force scale factor
+            forceScaleFactor = (scaledMuscVol / genericMuscVol) / (scaledL0 / genericL0)
+            # Scale current muscle strength
+            scaledModel.getMuscles().get(muscInd).setMaxIsometricForce(
+                forceScaleFactor * scaledModel.getMuscles().get(muscInd).getMaxIsometricForce())
+            # Update max contraction velocity
+            scaledModel.getMuscles().get(muscInd).setMaxContractionVelocity(20.0)
+
         # Add marker locations underneath foot markers at floor level based on static motion
         # These may be useful later in determining foot-ground contact points
 
         # Set the list of markers to project to the floot
         floorMarkers = ['R_FM1', 'R_FM2', 'R_FM5', 'R_FCC',
                         'L_FM1', 'L_FM2', 'L_FM5', 'L_FCC']
-
-        # Load the model
-        scaledModel = osim.Model(
-            os.path.join('..', 'data', participant, 'scaling', f'{participant}_scaledModelAdjusted.osim'))
-
-        # Set model name
-        scaledModel.setName(participant)
 
         # Load the static motion
         staticMotion = osim.TimeSeriesTable(
