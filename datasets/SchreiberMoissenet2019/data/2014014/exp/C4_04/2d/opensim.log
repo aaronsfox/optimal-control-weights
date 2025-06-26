@@ -1,0 +1,611 @@
+[2025-05-27 14:43:04.055] [info] Loaded model 2014014_2d from file 2014014_scaledModelAdjusted_2d.osim
+[2025-05-27 14:46:28.417] [info] Loaded model 2014014_2d from file 2014014_scaledModelAdjusted_2d.osim
+[2025-05-27 14:48:39.281] [info] Storage: read data file = C4_04_ik_2d.mot (nr=56 nc=17)
+[2025-05-27 14:49:33.866] [error] IO.OpenInputFile(const string&,openmode mode): failed to open C4_04_ik.mot.
+[2025-05-27 14:49:44.923] [info] Storage: read data file = C4_04_ik_2d.mot (nr=56 nc=17)
+[2025-05-27 15:25:45.250] [info] Storage: read data file = 2014014_C4_04_grf.mot (nr=1781 nc=19)
+[2025-05-27 15:33:27.804] [info] Loaded model 2014014_2d from file 2014014_scaledModelAdjusted_2d.osim
+[2025-05-27 15:33:31.987] [info] Storage: read data file = C4_04_ik_2d.mot (nr=56 nc=17)
+[2025-05-27 15:33:31.989] [info] Storage: read data file = C4_04_ik_2d.mot (nr=56 nc=17)
+[2025-05-27 15:35:30.451] [info] Loaded model 2014014_2d from file 2014014_C4_04_exp-tracking_2d.osim
+[2025-05-27 15:35:30.500] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.500] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.514] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.514] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.531] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.531] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.544] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.544] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.559] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.559] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.572] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.572] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.662] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.662] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.741] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.741] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.820] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.820] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.858] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.858] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.941] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:30.941] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.053] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.053] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.117] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.117] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.150] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.150] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.228] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.228] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.342] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.342] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.404] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.404] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.439] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.439] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.554] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.554] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.714] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.714] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.765] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.766] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.788] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.788] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.837] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.837] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.885] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.885] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.927] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.927] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.944] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.944] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.990] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:31.991] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.044] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.044] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.084] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.084] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.106] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.106] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.161] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.161] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.239] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.239] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.288] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.288] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.308] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.308] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.354] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.354] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.411] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.411] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.447] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.447] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.465] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.465] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.510] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.510] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.563] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.563] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.595] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.595] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.623] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.623] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.660] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.660] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.704] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.704] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.734] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.734] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.749] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.750] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.783] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:32.783] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:47.687] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:47.687] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:47.722] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:47.722] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:47.757] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:47.757] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:47.794] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:47.794] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:47.846] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:47.846] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:47.881] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:47.881] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:47.899] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:47.900] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:47.964] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:47.964] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.250] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.250] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.278] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.278] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.294] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.294] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.328] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.328] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.371] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.371] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.400] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.400] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.415] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.415] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.451] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.451] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.492] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.492] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.584] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.584] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.629] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.629] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.742] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:50.743] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.059] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.059] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.229] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.229] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.246] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.246] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.287] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.287] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.347] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.347] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.377] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.377] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.396] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.396] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.440] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.440] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.482] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.482] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.525] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.525] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.552] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.552] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.716] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.716] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.880] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.880] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.956] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.956] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.981] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:51.981] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:52.034] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:52.034] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:52.087] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:52.093] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:52.124] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:52.124] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:52.155] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:52.155] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:52.196] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:35:52.196] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:55.790] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:55.790] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:55.826] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:55.826] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:55.843] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:55.843] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:55.886] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:55.886] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:55.936] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:55.936] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:55.964] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:55.964] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:55.980] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:55.980] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:56.015] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:56.015] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:58.936] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:58.936] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:58.970] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:58.970] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:58.988] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:58.988] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:59.035] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:59.035] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:59.082] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:59.082] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:59.120] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:59.120] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:59.140] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:59.140] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:59.182] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:59.182] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:59.203] [info] ========================================================================
+[2025-05-27 15:36:59.203] [info] MocoCasADiSolver starting.
+[2025-05-27 15:36:59.203] [info] Tue May 27 15:36:59 2025
+[2025-05-27 15:36:59.203] [info] ------------------------------------------------------------------------
+[2025-05-27 15:36:59.203] [cout] [info] Costs: (total: 2)
+[2025-05-27 15:36:59.203] [cout] [info]   marker_tracking. MocoMarkerTrackingGoal, enabled: true, mode: cost, weight: 10.0
+[2025-05-27 15:36:59.203] [cout] [info]         allow unused references: 
+[2025-05-27 15:36:59.203] [cout] [info]         tracked marker(s):
+[2025-05-27 15:36:59.203] [cout] [info]             L_IAS, weight: 1.0
+[2025-05-27 15:36:59.203] [cout] [info]             L_IPS, weight: 1.0
+[2025-05-27 15:36:59.203] [cout] [info]             R_IPS, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             R_IAS, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             L_FTC, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             L_FLE, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             L_FME, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             L_FAX, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             L_TTC, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             L_FAL, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             L_TAM, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             L_FCC, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             L_FM1, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             L_FM2, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             L_FM5, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             R_FTC, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             R_FLE, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             R_FME, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             R_FAX, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             R_TTC, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             R_FAL, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             R_TAM, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             R_FCC, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             R_FM1, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             R_FM2, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             R_FM5, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             CV7, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             TV10, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             SXS, weight: 1.0
+[2025-05-27 15:36:59.204] [cout] [info]             SJN, weight: 1.0
+[2025-05-27 15:36:59.234] [cout] [info]             L_SAA, weight: 1.0
+[2025-05-27 15:36:59.234] [cout] [info]             L_SAE, weight: 1.0
+[2025-05-27 15:36:59.234] [cout] [info]             L_HLE, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]             L_HME, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]             L_UOA, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]             L_RSP, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]             L_UHE, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]             L_HM2, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]             L_HM5, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]             R_SAA, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]             R_SAE, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]             R_HLE, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]             R_HME, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]             R_UOA, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]             R_RSP, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]             R_UHE, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]             R_HM2, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]             R_HM5, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]   control_effort. MocoControlGoal, enabled: true, mode: cost, weight: 0.00100000
+[2025-05-27 15:36:59.235] [cout] [info]         control: /forceset/pelvis_tx_residual, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]         control: /forceset/pelvis_ty_residual, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]         control: /forceset/pelvis_tilt_residual, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]         control: /forceset/hip_flexion_r_torque, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]         control: /forceset/knee_angle_r_torque, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]         control: /forceset/ankle_angle_r_torque, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]         control: /forceset/hip_flexion_l_torque, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]         control: /forceset/knee_angle_l_torque, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]         control: /forceset/ankle_angle_l_torque, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]         control: /forceset/lumbar_ext_torque, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]         control: /forceset/shoulder_flexion_r_torque, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]         control: /forceset/elbow_flexion_r_torque, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]         control: /forceset/shoulder_flexion_l_torque, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info]         control: /forceset/elbow_flexion_l_torque, weight: 1.0
+[2025-05-27 15:36:59.235] [cout] [info] Endpoint constraints: none
+[2025-05-27 15:36:59.235] [cout] [info] Kinematic constraints: none
+[2025-05-27 15:36:59.235] [cout] [info] Path constraints: none
+[2025-05-27 15:36:59.236] [cout] [info] States: (total: 28)
+[2025-05-27 15:36:59.326] [cout] [info]   /jointset/ground_pelvis/pelvis_tilt/value. bounds: [-1.5708, 1.5708]
+[2025-05-27 15:36:59.326] [cout] [info]   /jointset/ground_pelvis/pelvis_tilt/speed. bounds: [-50, 50]
+[2025-05-27 15:36:59.326] [cout] [info]   /jointset/ground_pelvis/pelvis_tx/value. bounds: [-5, 5]
+[2025-05-27 15:36:59.326] [cout] [info]   /jointset/ground_pelvis/pelvis_tx/speed. bounds: [-50, 50]
+[2025-05-27 15:36:59.326] [cout] [info]   /jointset/elbow_l/elbow_flexion_l/value. bounds: [0, 2.618]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/ankle_l/ankle_angle_l/value. bounds: [-1.0472, 1.0472]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/knee_r/knee_angle_r/speed. bounds: [-50, 50]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/ground_pelvis/pelvis_ty/value. bounds: [-1, 2]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/elbow_l/elbow_flexion_l/speed. bounds: [-50, 50]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/ankle_l/ankle_angle_l/speed. bounds: [-50, 50]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/ground_pelvis/pelvis_ty/speed. bounds: [-50, 50]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/ankle_r/ankle_angle_r/value. bounds: [-1.5708, 1.5708]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/hip_r/hip_flexion_r/value. bounds: [-2.0944, 2.0944]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/ankle_r/ankle_angle_r/speed. bounds: [-50, 50]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/hip_r/hip_flexion_r/speed. bounds: [-50, 50]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/back/lumbar_ext/speed. bounds: [-50, 50]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/knee_r/knee_angle_r/value. bounds: [-2.0944, 0]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/knee_l/knee_angle_l/speed. bounds: [-50, 50]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/hip_l/hip_flexion_l/value. bounds: [-2.0944, 2.0944]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/hip_l/hip_flexion_l/speed. bounds: [-50, 50]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/knee_l/knee_angle_l/value. bounds: [-2.0944, 0]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/back/lumbar_ext/value. bounds: [-1.5708, 1.5708]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/acromial_r/shoulder_flexion_r/value. bounds: [-1.5708, 1.5708]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/acromial_r/shoulder_flexion_r/speed. bounds: [-50, 50]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/elbow_r/elbow_flexion_r/value. bounds: [0, 2.618]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/elbow_r/elbow_flexion_r/speed. bounds: [-50, 50]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/acromial_l/shoulder_flexion_l/value. bounds: [-1.5708, 1.5708]
+[2025-05-27 15:36:59.327] [cout] [info]   /jointset/acromial_l/shoulder_flexion_l/speed. bounds: [-50, 50]
+[2025-05-27 15:36:59.327] [cout] [info] Controls: (total: 14)
+[2025-05-27 15:36:59.327] [cout] [info]   /forceset/pelvis_tx_residual. bounds: [-inf, inf]
+[2025-05-27 15:36:59.327] [cout] [info]   /forceset/ankle_angle_r_torque. bounds: [-inf, inf]
+[2025-05-27 15:36:59.327] [cout] [info]   /forceset/pelvis_ty_residual. bounds: [-inf, inf]
+[2025-05-27 15:36:59.327] [cout] [info]   /forceset/pelvis_tilt_residual. bounds: [-inf, inf]
+[2025-05-27 15:36:59.327] [cout] [info]   /forceset/hip_flexion_r_torque. bounds: [-inf, inf]
+[2025-05-27 15:36:59.327] [cout] [info]   /forceset/knee_angle_r_torque. bounds: [-inf, inf]
+[2025-05-27 15:36:59.344] [cout] [info]   /forceset/hip_flexion_l_torque. bounds: [-inf, inf]
+[2025-05-27 15:36:59.344] [cout] [info]   /forceset/knee_angle_l_torque. bounds: [-inf, inf]
+[2025-05-27 15:36:59.344] [cout] [info]   /forceset/ankle_angle_l_torque. bounds: [-inf, inf]
+[2025-05-27 15:36:59.344] [cout] [info]   /forceset/lumbar_ext_torque. bounds: [-inf, inf]
+[2025-05-27 15:36:59.344] [cout] [info]   /forceset/shoulder_flexion_r_torque. bounds: [-inf, inf]
+[2025-05-27 15:36:59.345] [cout] [info]   /forceset/elbow_flexion_r_torque. bounds: [-inf, inf]
+[2025-05-27 15:36:59.345] [cout] [info]   /forceset/shoulder_flexion_l_torque. bounds: [-inf, inf]
+[2025-05-27 15:36:59.345] [cout] [info]   /forceset/elbow_flexion_l_torque. bounds: [-inf, inf]
+[2025-05-27 15:36:59.345] [cout] [info] Parameters: none
+[2025-05-27 15:36:59.424] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:59.424] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:59.829] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:59.829] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:59.915] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:36:59.915] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.046] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.046] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.138] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.138] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.197] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.198] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.249] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.249] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.297] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.297] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.350] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.351] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.382] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.382] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.397] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.397] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.434] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.434] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.477] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.477] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.512] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.512] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.529] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.529] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.567] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.568] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.618] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.618] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.657] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.657] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.675] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.675] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.714] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.714] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.760] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.760] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.796] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.796] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.815] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.815] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.860] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.860] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.916] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.916] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.947] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.947] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.963] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.963] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.999] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:00.999] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:01.041] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:01.041] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:01.072] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:01.072] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:01.088] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:01.088] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:01.122] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:01.122] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:37:01.137] [info] Number of threads: 8
+[2025-05-27 15:38:19.698] [info] Set log level to Info.
+[2025-05-27 15:38:19.703] [info] ------------------------------------------------------------------------
+[2025-05-27 15:38:19.703] [info] Elapsed real time: 80 second(s) (1 minute(s), 20 second(s)).
+[2025-05-27 15:38:19.703] [info] Tue May 27 15:38:19 2025
+[2025-05-27 15:38:19.703] [info] MocoCasADiSolver succeeded!
+[2025-05-27 15:38:19.703] [info] ========================================================================
+[2025-05-27 15:40:32.439] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:40:32.439] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:40:32.482] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:40:32.482] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:40:32.535] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:40:32.535] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-27 15:40:43.081] [cout] [info] Exiting visualization.
+[2025-05-28 10:13:28.598] [info] Loaded model 2014014_2d from file 2014014_scaledModelAdjusted_2d.osim
+[2025-05-28 10:13:34.303] [info] Storage: read data file = C4_04_ik_2d.mot (nr=56 nc=17)
+[2025-05-28 10:13:34.305] [info] Storage: read data file = C4_04_ik_2d.mot (nr=56 nc=17)
+[2025-05-28 10:13:38.918] [info] Loaded model 2014014_2d from file 2014014_C4_04_exp-tracking_2d.osim
+[2025-05-28 10:13:38.978] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:38.978] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:38.992] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:38.992] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.007] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.007] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.020] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.020] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.035] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.035] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.047] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.047] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.139] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.139] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.222] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.222] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.258] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.258] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.277] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.278] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.316] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.316] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.366] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.366] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.397] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.397] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.415] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.415] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.449] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.449] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.508] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.508] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.542] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.542] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.559] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.559] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.595] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.595] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.642] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.642] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.677] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.677] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.695] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.695] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.738] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.738] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.791] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.791] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.822] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.822] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.842] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.842] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.881] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.881] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.923] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.923] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.953] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.953] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.970] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:39.970] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.006] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.006] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.047] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.047] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.076] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.076] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.091] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.091] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.125] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.125] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.166] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.166] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.195] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.195] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.210] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.210] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.245] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.245] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.284] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.284] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.312] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.312] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.328] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.328] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.365] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.365] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.406] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.406] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.434] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.434] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.449] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.449] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.486] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:40.486] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:49.162] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:49.162] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:49.190] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:49.190] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:49.204] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:49.204] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:49.238] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:49.238] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:49.278] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:49.278] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:49.306] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:49.306] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:49.322] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:49.322] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:49.357] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:49.357] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.259] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.260] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.288] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.288] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.302] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.302] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.332] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.332] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.370] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.370] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.399] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.399] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.415] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.415] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.449] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.449] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.490] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.490] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.528] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.528] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.554] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.554] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.609] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.609] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.664] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.664] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.696] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.696] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.719] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.719] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.761] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.761] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.824] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.824] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.856] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.856] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.875] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.875] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.917] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.917] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.965] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.965] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.999] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:54.999] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.016] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.016] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.053] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.053] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.110] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.110] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.154] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.154] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.171] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.171] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.213] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.213] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.262] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.262] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.294] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.294] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.311] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.311] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.350] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.350] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.500] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.500] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.528] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.528] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.543] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.543] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.578] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.578] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.625] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.625] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.657] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.657] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.675] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.675] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.710] [info] ExternalForce::grf1 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:13:55.710] [info] ExternalForce::grf2 Data source being set to 2014014_C4_04_grf
+[2025-05-28 10:17:24.351] [info] Loaded model 2014014_2d from file ..\data\2014014\exp\C4_04\2d\2014014_scaledModelAdjusted_2d.osim
+[2025-05-28 10:24:01.602] [info] Loaded model 2014014_2d from file ..\data\2014014\exp\C4_04\2d\2014014_scaledModelAdjusted_2d.osim
+[2025-05-28 10:24:10.104] [info] Loaded model 2014014_2d from file ..\data\2014014\exp\C4_04\2d\2014014_scaledModelAdjusted_2d.osim
+[2025-05-28 10:24:58.086] [info] Loaded model 2014014_2d from file ..\data\2014014\exp\C4_04\2d\2014014_scaledModelAdjusted_2d.osim

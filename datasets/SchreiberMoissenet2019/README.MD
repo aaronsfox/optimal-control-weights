@@ -13,19 +13,26 @@ Any additional use must be in line with that described in the original paper.
 The following steps describe the processes and code (see **Code** section below) used to generate the data for test cases related to the overall aim of this work (i.e. integrating ZMP estimates of GRFs into OpenSim). The final data is already available in this folder (see **Data** section below), however the processes to produce these data can be replicated using these steps.
 
 1. Download the archive of participant data from [this link](https://doi.org/10.6084/m9.figshare.7734767). 
-2. Create a `raw` folder in the `data` directory and unzip each participants data into this folder. Each participant should therefore have their own folder within the `raw` directory (e.g. `data\\raw\\2014001`) that contains the `.c3d` files from Schreiber & Moissenet (2019). The participant folder should simply contain all of the individual `.c3d` files for that participant to be appropriately extracted (e.g. `data\\raw\\2014001\\2014001_C1_01.c3d`).
-3. Run the **`extractData.py`** script. This will extract and convert the necessary experimental `.c3d` files from the raw folder into individual participant folders within this directory. Note that only the self-selected preferred (C4) speed is extracted. The script also only extracts data for participants who have a viable walking trial for the selected conditions — with a viable trial deemed as those including a gait cycle where each foot contacted a separate force plate. One viable trial is randomly selected from each participant from the selected conditions (i.e. C4) to be used in subsequent analyses. After this you may delete the `raw` folder as it will no longer be used.
-4. Run the **`genBaselineSims.py`** script. This will run torque-driven Moco tracking simulations of the kinematics derived from IK, adjusting these so they are dynamically consistent with the ground reactions. The model coordinates from these tracking simulations are those that will be used in the main code of this project. **NOTE:** This script may be time consuming give the large number of participants and nature of direct collocation tracking simulations, so given the data is already available re-running this step is not necessarily recommended.
+2. Create a `raw` folder in the `data` directory and unzip each participants data into this folder. Each participant should therefore have their own folder within the `raw` directory (e.g. `data\\raw\\2014001`) that contains the `.c3d` files from Schreiber & Moissenet (2019). The participant folder should simply contain all of the individual `.c3d` files for that participant to be appropriately extracted (e.g. `data\\raw\\2014001\\2014001_C1_01.c3d`). This shouldn't require any tweaking of the dataset folders other than copying them into the created `raw` folder.
+3. Run the **`extract_data.py`** script. This will extract and convert the necessary experimental `.c3d` files from the raw folder into individual participant folders within this directory. Note that only the self-selected preferred (C4) speed is extracted. The script also only extracts data for participants who have a viable walking trial for the selected conditions — with a viable trial deemed as those including a gait cycle where each foot contacted a separate force plate. One viable trial is randomly selected from each participant from the selected conditions (i.e. C4) to be used in subsequent analyses. The script also allows specification for the number of participants to extract from the dataset, with participants randomly selected after setting a seed. After running this script, you may delete the `raw` folder as it will no longer be used.
+4. Run the **`process_data.py`** script. This will scale the generic models to the participants static trials and process any extracted trials through inverse kinematics. During this process both 3D and 2D models and data is created. The scaled models and kinematic data will be used in subsequent steps to generate the reference data (see next step). **[TODO: update all info from this]** 
+5. **[TODO]** **`run_mrs.m`**
+6. ...other scripts?
+7. Run the **`generate_reference.py`** script **[TODO: this script and process will change]** 
+8. **... old tracking simulation info -** This will run torque-driven Moco tracking simulations of the kinematics derived from IK, adjusting these so they are dynamically consistent with the ground reactions. The model coordinates from these tracking simulations are those that will be used in the main code of this project. **NOTE:** This script may be time consuming give the large number of participants and nature of direct collocation tracking simulations, so given the data is already available re-running this step is not necessarily recommended.
 
 ## Code
 
-The Python scripts in this folder were developed using OpenSim v4.5 alongside Python 3.10 on Windows. The code may work with other versions or operating systems, but has not been tested for this. The script uses relative file paths to extract the data so the code must be run from its own directory (i.e. the `code` folder) — which is typically the default of most Python IDEs.
+The Python scripts in this folder were developed using OpenSim v4.5 alongside Python 3.11 on Windows. The code may work with other versions or operating systems, but has not been tested for this. The script uses relative file paths to extract the data so the code must be run from its own directory (i.e. the `code` folder) — which is typically the default of most Python IDEs.
 
 There are various dependencies associated with the code, which include:
 
 - **[TODO: add dependencies]**
+- **[TODO: muscle redundancy solver link]**
 
 ## Model
+
+**[TODO: update the models used]**
 
 The model included in this folder and used to process data is a modified version from the work of Rajagopal et al. and Uhlrich et al.:
 
@@ -36,10 +43,30 @@ The model included in this folder and used to process data is a modified version
 The modifications to the model were:
 
 - Adapting the marker set to match that of the experimental data being processed, with some markers on the scapulae removed due to not being tracked in simulations.
+- Welded subtalar and MTP joints in both feet, and wrist joints in both hands as these are not used in any simulations.
+- Converted the model to a 2D version (i.e. pelvis became planar joint; hip, knee, back and arms became pin joints) to use in subsequent 2D analyses.
+
+[**TODO: update this depending on models being used]**
+
+- **<u>Miller model</u>**
+  - Adapting the marker set to match that of the experimental data being processed, with some markers on the scapulae removed due to not being tracked in simulations.
+  - Added markers at contact sphere locations to track position changes during scaling
+  - Adjusted pelvis joint name to align with other model
+  - Removed coordinate actuators for consistent processing in torque simulations
+- **<u>Denton model</u>**
+  - Adapting the marker set to match that of the experimental data being processed, with some markers on the scapulae removed due to not being tracked in simulations.
+  - Added markers at contact sphere locations to track position changes during scaling
+  - Moved contact forces from model components to force set
+  - Added arms to match full body model
+  - Removed original metabolic probes
+  - Altered joint definitions and geometries to be consistent with Miller model
+    - **[TODO: back vs. lumbar joint name --- change]**
 
 ## Data
 
-This dataset includes overground walking at various speeds, processed using an OpenSim Moco marker tracking approach. The idea behind this dataset is to demonstrate how ZMP estimates of GRFs are impacted by: (1) walking at different speeds (i.e. self-selected preferred and self-selected fast); and (2) a double support movement. Each participant's processed data will end up in a folder labelled with their unique identification number (see original [Schreiber & Moissenet paper](https://doi.org/10.1038/s41597-019-0124-4) for details). Within these folders, data is separated into:
+This dataset includes overground walking at self-selected speed (although additional speeds could be extracted from the original dataset), processed using OpenSim. Each participant's processed data will end up in a folder labelled with their unique identification number (see original [Schreiber & Moissenet paper](https://doi.org/10.1038/s41597-019-0124-4) for details). Within these folders, data is separated into:
+
+**[TODO: final data set-up, below is old...]**
 
 - **baseline:** results from initial torque-driven Moco track simulations of IK coordinates generated by `genBaselineSims.py` script. The data from these tracking simulations are the main outputs used in subsequent tracking analyses for this project.
 - **dynamic:** original `.c3d` files alongside the created `.trc` marker files, and `.mot` and `.xml` ground reactions files from dynamic walking trials.
@@ -47,3 +74,4 @@ This dataset includes overground walking at various speeds, processed using an O
 - **ik:** set-up files and data processed using OpenSim's inverse kinematics tool. These data serve as the joint angles tracked in simulations.
 - **scaling:** set-up files and data from the scaling of the generic model (see *Model* section above).
 - **static:** original `.c3d` file alongside the created `.trc` marker file from a static trial.
+- **tracking: TODO - add descriptions...**

@@ -1,0 +1,1085 @@
+[2025-06-06 15:05:05.989] [info] Loaded model SUBJ01_2d_optim from file SUBJ01_model_2d_optim.osim
+[2025-06-06 15:10:03.458] [info] Loaded model SUBJ01_2d_optim from file SUBJ01_model_2d_optim.osim
+[2025-06-06 15:14:30.666] [info] Loaded model SUBJ01_2d_optim from file SUBJ01_inverse-model_2d.osim
+[2025-06-06 15:14:30.709] [info] Adding reserve actuators with an optimal force of 2.5...
+[2025-06-06 15:14:30.723] [info] Added 9 reserve actuator(s), for each of the following coordinates:
+[2025-06-06 15:14:30.723] [info]   /jointset/ground_pelvis/pelvis_tilt
+[2025-06-06 15:14:30.724] [info]   /jointset/ground_pelvis/pelvis_tx
+[2025-06-06 15:14:30.724] [info]   /jointset/ground_pelvis/pelvis_ty
+[2025-06-06 15:14:30.724] [info]   /jointset/hip_r/hip_flexion_r
+[2025-06-06 15:14:30.724] [info]   /jointset/knee_r/knee_angle_r
+[2025-06-06 15:14:30.724] [info]   /jointset/ankle_r/ankle_angle_r
+[2025-06-06 15:14:30.724] [info]   /jointset/hip_l/hip_flexion_l
+[2025-06-06 15:14:30.724] [info]   /jointset/knee_l/knee_angle_l
+[2025-06-06 15:14:30.724] [info]   /jointset/ankle_l/ankle_angle_l
+[2025-06-06 15:17:39.491] [info] Loaded model SUBJ01_2d_optim from file SUBJ01_inverse-model_2d.osim
+[2025-06-06 15:17:40.016] [info] Adding reserve actuators with an optimal force of 2.5...
+[2025-06-06 15:17:40.031] [info] Added 9 reserve actuator(s), for each of the following coordinates:
+[2025-06-06 15:17:40.031] [info]   /jointset/ground_pelvis/pelvis_tilt
+[2025-06-06 15:17:40.031] [info]   /jointset/ground_pelvis/pelvis_tx
+[2025-06-06 15:17:40.031] [info]   /jointset/ground_pelvis/pelvis_ty
+[2025-06-06 15:17:40.031] [info]   /jointset/hip_r/hip_flexion_r
+[2025-06-06 15:17:40.031] [info]   /jointset/knee_r/knee_angle_r
+[2025-06-06 15:17:40.031] [info]   /jointset/ankle_r/ankle_angle_r
+[2025-06-06 15:17:40.031] [info]   /jointset/hip_l/hip_flexion_l
+[2025-06-06 15:17:40.031] [info]   /jointset/knee_l/knee_angle_l
+[2025-06-06 15:17:40.031] [info]   /jointset/ankle_l/ankle_angle_l
+[2025-06-06 15:17:40.103] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:17:40.103] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:17:40.103] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:17:40.126] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:17:40.127] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:17:40.127] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:17:40.173] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:17:40.173] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:17:40.173] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:17:40.211] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:17:40.211] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:17:40.211] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:17:40.254] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:17:40.254] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:17:40.254] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:17:40.277] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:17:40.277] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:17:40.277] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:17:40.301] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:17:40.301] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:17:40.301] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:17:40.333] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:17:40.333] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:17:40.333] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:17:40.365] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:17:40.365] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:17:40.365] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:17:40.389] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:17:40.389] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:17:40.389] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:17:40.411] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:17:40.411] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:17:40.411] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:17:40.441] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:17:40.441] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:17:40.441] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:31.903] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:31.903] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:31.903] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:31.924] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:31.924] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:31.924] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:31.946] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:31.946] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:31.946] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:31.972] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:31.972] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:31.972] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:31.999] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:31.999] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:31.999] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:32.022] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:32.022] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:32.022] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:32.043] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:32.043] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:32.043] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:32.069] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:32.069] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:32.069] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.211] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.211] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.211] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.231] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.231] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.231] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.252] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.252] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.252] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.279] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.279] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.279] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.310] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.310] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.310] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.331] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.331] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.331] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.353] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.353] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.353] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.381] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.381] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.381] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.395] [info] ========================================================================
+[2025-06-06 15:19:59.395] [info] MocoCasADiSolver starting.
+[2025-06-06 15:19:59.395] [info] Fri Jun  6 15:19:59 2025
+[2025-06-06 15:19:59.395] [info] ------------------------------------------------------------------------
+[2025-06-06 15:19:59.395] [cout] [info] Costs: (total: 1)
+[2025-06-06 15:19:59.395] [cout] [info]   excitation_effort. MocoControlGoal, enabled: true, mode: cost, weight: 0.00100000
+[2025-06-06 15:19:59.395] [cout] [info]         control: /forceset/hamstrings_r, weight: 1.0
+[2025-06-06 15:19:59.395] [cout] [info]         control: /forceset/bifemsh_r, weight: 1.0
+[2025-06-06 15:19:59.395] [cout] [info]         control: /forceset/glut_max_r, weight: 1.0
+[2025-06-06 15:19:59.395] [cout] [info]         control: /forceset/iliopsoas_r, weight: 1.0
+[2025-06-06 15:19:59.395] [cout] [info]         control: /forceset/rect_fem_r, weight: 1.0
+[2025-06-06 15:19:59.395] [cout] [info]         control: /forceset/vasti_r, weight: 1.0
+[2025-06-06 15:19:59.395] [cout] [info]         control: /forceset/gastroc_r, weight: 1.0
+[2025-06-06 15:19:59.395] [cout] [info]         control: /forceset/soleus_r, weight: 1.0
+[2025-06-06 15:19:59.395] [cout] [info]         control: /forceset/dorsiflexors_r, weight: 1.0
+[2025-06-06 15:19:59.395] [cout] [info]         control: /forceset/hamstrings_l, weight: 1.0
+[2025-06-06 15:19:59.395] [cout] [info]         control: /forceset/bifemsh_l, weight: 1.0
+[2025-06-06 15:19:59.395] [cout] [info]         control: /forceset/glut_max_l, weight: 1.0
+[2025-06-06 15:19:59.395] [cout] [info]         control: /forceset/iliopsoas_l, weight: 1.0
+[2025-06-06 15:19:59.395] [cout] [info]         control: /forceset/rect_fem_l, weight: 1.0
+[2025-06-06 15:19:59.395] [cout] [info]         control: /forceset/vasti_l, weight: 1.0
+[2025-06-06 15:19:59.396] [cout] [info]         control: /forceset/gastroc_l, weight: 1.0
+[2025-06-06 15:19:59.396] [cout] [info]         control: /forceset/soleus_l, weight: 1.0
+[2025-06-06 15:19:59.396] [cout] [info]         control: /forceset/dorsiflexors_l, weight: 1.0
+[2025-06-06 15:19:59.396] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tilt, weight: 1.0
+[2025-06-06 15:19:59.396] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tx, weight: 1.0
+[2025-06-06 15:19:59.396] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_ty, weight: 1.0
+[2025-06-06 15:19:59.396] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_flexion_r, weight: 1.0
+[2025-06-06 15:19:59.396] [cout] [info]         control: /forceset/reserve_jointset_knee_r_knee_angle_r, weight: 1.0
+[2025-06-06 15:19:59.396] [cout] [info]         control: /forceset/reserve_jointset_ankle_r_ankle_angle_r, weight: 1.0
+[2025-06-06 15:19:59.396] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_flexion_l, weight: 1.0
+[2025-06-06 15:19:59.396] [cout] [info]         control: /forceset/reserve_jointset_knee_l_knee_angle_l, weight: 1.0
+[2025-06-06 15:19:59.396] [cout] [info]         control: /forceset/reserve_jointset_ankle_l_ankle_angle_l, weight: 1.0
+[2025-06-06 15:19:59.396] [cout] [info] Endpoint constraints: (total: 1)
+[2025-06-06 15:19:59.396] [cout] [info]   initial_activation. MocoInitialActivationGoal, enabled: true, mode: endpoint_constraint
+[2025-06-06 15:19:59.396] [cout] [info] Kinematic constraints: none
+[2025-06-06 15:19:59.396] [cout] [info] Path constraints: none
+[2025-06-06 15:19:59.396] [cout] [info] States: (total: 18)
+[2025-06-06 15:19:59.396] [cout] [info]   /forceset/hamstrings_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.396] [cout] [info]   /forceset/bifemsh_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.396] [cout] [info]   /forceset/glut_max_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.396] [cout] [info]   /forceset/iliopsoas_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.396] [cout] [info]   /forceset/rect_fem_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.396] [cout] [info]   /forceset/gastroc_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.396] [cout] [info]   /forceset/vasti_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.396] [cout] [info]   /forceset/soleus_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.396] [cout] [info]   /forceset/dorsiflexors_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.396] [cout] [info]   /forceset/hamstrings_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.396] [cout] [info]   /forceset/bifemsh_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.396] [cout] [info]   /forceset/glut_max_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.396] [cout] [info]   /forceset/iliopsoas_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.396] [cout] [info]   /forceset/rect_fem_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.396] [cout] [info]   /forceset/gastroc_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.396] [cout] [info]   /forceset/vasti_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/soleus_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/dorsiflexors_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info] Controls: (total: 27)
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/reserve_jointset_ankle_l_ankle_angle_l. bounds: [-inf, inf]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/hamstrings_r. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_flexion_r. bounds: [-inf, inf]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_ty. bounds: [-inf, inf]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/bifemsh_r. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/glut_max_r. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/iliopsoas_r. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/rect_fem_r. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/gastroc_r. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/vasti_r. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/soleus_r. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/dorsiflexors_r. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/hamstrings_l. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/bifemsh_l. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/glut_max_l. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/iliopsoas_l. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tx. bounds: [-inf, inf]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/rect_fem_l. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/gastroc_l. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/vasti_l. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/soleus_l. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/dorsiflexors_l. bounds: [0.01, 1]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tilt. bounds: [-inf, inf]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/reserve_jointset_knee_r_knee_angle_r. bounds: [-inf, inf]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/reserve_jointset_ankle_r_ankle_angle_r. bounds: [-inf, inf]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_flexion_l. bounds: [-inf, inf]
+[2025-06-06 15:19:59.397] [cout] [info]   /forceset/reserve_jointset_knee_l_knee_angle_l. bounds: [-inf, inf]
+[2025-06-06 15:19:59.397] [cout] [info] Parameters: none
+[2025-06-06 15:19:59.418] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.419] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.419] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.440] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.440] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.440] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.462] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.462] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.462] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.495] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.495] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.495] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.537] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.537] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.537] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.569] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.569] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.569] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.601] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.601] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.601] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.638] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.638] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.638] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.681] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.681] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.681] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.708] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.708] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.708] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.743] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.743] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.743] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.786] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.786] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.786] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.823] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.823] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.823] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.857] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.857] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.857] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.885] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.885] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.885] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.917] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.917] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.917] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.946] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.946] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.946] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.970] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.970] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.970] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:19:59.997] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:19:59.997] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:19:59.997] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:20:00.038] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:20:00.038] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:20:00.038] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:20:00.094] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:20:00.094] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:20:00.094] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:20:00.128] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:20:00.128] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:20:00.128] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:20:00.153] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:20:00.153] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:20:00.153] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:20:00.185] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:20:00.185] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:20:00.185] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:20:00.215] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:20:00.215] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:20:00.215] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:20:00.239] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:20:00.239] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:20:00.239] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:20:00.261] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:20:00.261] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:20:00.261] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:20:00.292] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:20:00.292] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:20:00.292] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:20:00.325] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:20:00.325] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:20:00.325] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:20:00.350] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:20:00.350] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:20:00.350] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:20:00.372] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:20:00.372] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:20:00.372] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:20:00.404] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:20:00.404] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:20:00.404] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:20:00.420] [info] Number of threads: 8
+[2025-06-06 15:20:02.901] [info] Set log level to Info.
+[2025-06-06 15:20:02.903] [info] ------------------------------------------------------------------------
+[2025-06-06 15:20:02.903] [info] Elapsed real time: 4 second(s).
+[2025-06-06 15:20:02.903] [info] Fri Jun  6 15:20:02 2025
+[2025-06-06 15:20:02.903] [info] MocoCasADiSolver succeeded!
+[2025-06-06 15:20:02.903] [info] ========================================================================
+[2025-06-06 15:22:22.779] [info] Loaded model SUBJ01_2d_optim from file SUBJ01_model_2d_optim.osim
+[2025-06-06 15:22:31.558] [info] Loaded model SUBJ01_2d_optim from file SUBJ01_inverse-model_2d.osim
+[2025-06-06 15:22:31.584] [info] Adding reserve actuators with an optimal force of 2.5...
+[2025-06-06 15:22:31.599] [info] Added 9 reserve actuator(s), for each of the following coordinates:
+[2025-06-06 15:22:31.599] [info]   /jointset/ground_pelvis/pelvis_tilt
+[2025-06-06 15:22:31.599] [info]   /jointset/ground_pelvis/pelvis_tx
+[2025-06-06 15:22:31.599] [info]   /jointset/ground_pelvis/pelvis_ty
+[2025-06-06 15:22:31.599] [info]   /jointset/hip_r/hip_flexion_r
+[2025-06-06 15:22:31.599] [info]   /jointset/knee_r/knee_angle_r
+[2025-06-06 15:22:31.599] [info]   /jointset/ankle_r/ankle_angle_r
+[2025-06-06 15:22:31.599] [info]   /jointset/hip_l/hip_flexion_l
+[2025-06-06 15:22:31.599] [info]   /jointset/knee_l/knee_angle_l
+[2025-06-06 15:22:31.599] [info]   /jointset/ankle_l/ankle_angle_l
+[2025-06-06 15:22:31.616] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:31.616] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:31.616] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:31.640] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:31.640] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:31.640] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:31.688] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:31.688] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:31.688] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:31.729] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:31.729] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:31.729] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:31.773] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:31.773] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:31.773] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:31.795] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:31.795] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:31.795] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:31.821] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:31.821] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:31.821] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:31.858] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:31.858] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:31.858] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:31.892] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:31.892] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:31.892] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:31.916] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:31.916] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:31.916] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:31.940] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:31.940] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:31.940] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:31.994] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:31.994] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:31.994] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:32.079] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:32.080] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:32.080] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:32.101] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:32.101] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:32.101] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:32.123] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:32.123] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:32.123] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:32.154] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:32.154] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:32.154] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:32.195] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:32.195] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:32.195] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:32.232] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:32.232] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:32.232] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:32.255] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:32.255] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:32.255] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:32.284] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:32.284] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:32.284] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:40.909] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:40.909] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:40.909] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:40.932] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:40.933] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:40.933] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:40.955] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:40.955] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:40.955] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:40.982] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:40.983] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:40.983] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.026] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.026] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.026] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.060] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.060] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.060] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.082] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.082] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.082] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.108] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.108] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.108] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.120] [info] ========================================================================
+[2025-06-06 15:22:41.120] [info] MocoCasADiSolver starting.
+[2025-06-06 15:22:41.120] [info] Fri Jun  6 15:22:41 2025
+[2025-06-06 15:22:41.120] [info] ------------------------------------------------------------------------
+[2025-06-06 15:22:41.120] [cout] [info] Costs: (total: 1)
+[2025-06-06 15:22:41.120] [cout] [info]   excitation_effort. MocoControlGoal, enabled: true, mode: cost, weight: 0.00100000
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/hamstrings_r, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/bifemsh_r, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/glut_max_r, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/iliopsoas_r, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/rect_fem_r, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/vasti_r, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/gastroc_r, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/soleus_r, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/dorsiflexors_r, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/hamstrings_l, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/bifemsh_l, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/glut_max_l, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/iliopsoas_l, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/rect_fem_l, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/vasti_l, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/gastroc_l, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/soleus_l, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/dorsiflexors_l, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tilt, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_tx, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/reserve_jointset_ground_pelvis_pelvis_ty, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/reserve_jointset_hip_r_hip_flexion_r, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/reserve_jointset_knee_r_knee_angle_r, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/reserve_jointset_ankle_r_ankle_angle_r, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/reserve_jointset_hip_l_hip_flexion_l, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/reserve_jointset_knee_l_knee_angle_l, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info]         control: /forceset/reserve_jointset_ankle_l_ankle_angle_l, weight: 1.0
+[2025-06-06 15:22:41.120] [cout] [info] Endpoint constraints: (total: 1)
+[2025-06-06 15:22:41.120] [cout] [info]   initial_activation. MocoInitialActivationGoal, enabled: true, mode: endpoint_constraint
+[2025-06-06 15:22:41.120] [cout] [info] Kinematic constraints: none
+[2025-06-06 15:22:41.120] [cout] [info] Path constraints: none
+[2025-06-06 15:22:41.120] [cout] [info] States: (total: 22)
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/rect_fem_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/gastroc_r/normalized_tendon_force. bounds: [0, 5]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/soleus_r/normalized_tendon_force. bounds: [0, 5]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/rect_fem_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/gastroc_l/normalized_tendon_force. bounds: [0, 5]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/soleus_l/normalized_tendon_force. bounds: [0, 5]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/hamstrings_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/bifemsh_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/glut_max_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/iliopsoas_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/gastroc_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/vasti_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/soleus_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/dorsiflexors_r/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/hamstrings_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/bifemsh_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/glut_max_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/iliopsoas_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/gastroc_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/vasti_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/soleus_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/dorsiflexors_l/activation. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info] Controls: (total: 27)
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/reserve_jointset_ankle_l_ankle_angle_l. bounds: [-inf, inf]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/hamstrings_r. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/reserve_jointset_hip_r_hip_flexion_r. bounds: [-inf, inf]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_ty. bounds: [-inf, inf]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/bifemsh_r. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/glut_max_r. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/iliopsoas_r. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/rect_fem_r. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/gastroc_r. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/vasti_r. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/soleus_r. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/dorsiflexors_r. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/hamstrings_l. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/bifemsh_l. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/glut_max_l. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/iliopsoas_l. bounds: [0.01, 1]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tx. bounds: [-inf, inf]
+[2025-06-06 15:22:41.120] [cout] [info]   /forceset/rect_fem_l. bounds: [0.01, 1]
+[2025-06-06 15:22:41.121] [cout] [info]   /forceset/gastroc_l. bounds: [0.01, 1]
+[2025-06-06 15:22:41.121] [cout] [info]   /forceset/vasti_l. bounds: [0.01, 1]
+[2025-06-06 15:22:41.121] [cout] [info]   /forceset/soleus_l. bounds: [0.01, 1]
+[2025-06-06 15:22:41.121] [cout] [info]   /forceset/dorsiflexors_l. bounds: [0.01, 1]
+[2025-06-06 15:22:41.121] [cout] [info]   /forceset/reserve_jointset_ground_pelvis_pelvis_tilt. bounds: [-inf, inf]
+[2025-06-06 15:22:41.121] [cout] [info]   /forceset/reserve_jointset_knee_r_knee_angle_r. bounds: [-inf, inf]
+[2025-06-06 15:22:41.121] [cout] [info]   /forceset/reserve_jointset_ankle_r_ankle_angle_r. bounds: [-inf, inf]
+[2025-06-06 15:22:41.121] [cout] [info]   /forceset/reserve_jointset_hip_l_hip_flexion_l. bounds: [-inf, inf]
+[2025-06-06 15:22:41.121] [cout] [info]   /forceset/reserve_jointset_knee_l_knee_angle_l. bounds: [-inf, inf]
+[2025-06-06 15:22:41.121] [cout] [info] Parameters: none
+[2025-06-06 15:22:41.143] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.143] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.143] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.164] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.164] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.164] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.190] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.190] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.190] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.229] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.229] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.229] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.270] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.270] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.270] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.309] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.309] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.309] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.347] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.347] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.347] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.403] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.403] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.403] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.437] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.437] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.437] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.463] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.463] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.463] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.488] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.488] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.488] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.521] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.521] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.521] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.555] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.555] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.555] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.580] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.580] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.580] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.602] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.602] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.602] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.634] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.634] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.634] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.670] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.670] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.670] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.692] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.692] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.692] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.726] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.726] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.726] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.757] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.757] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.757] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.788] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.788] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.788] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.814] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.814] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.814] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.837] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.837] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.837] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.866] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.866] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.866] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.896] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.896] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.896] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.922] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.922] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.922] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.947] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.947] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.947] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:41.978] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:41.978] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:41.978] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:42.007] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:42.007] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:42.007] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:42.032] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:42.032] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:42.032] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:42.058] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:42.058] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:42.058] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:42.090] [info] ExternalForce::grf1 Data source being set to walk_grf
+[2025-06-06 15:22:42.090] [info] ExternalForce::grf2 Data source being set to walk_grf
+[2025-06-06 15:22:42.090] [info] ExternalForce::grf4 Data source being set to walk_grf
+[2025-06-06 15:22:42.101] [info] Number of threads: 8
+[2025-06-06 15:22:43.507] [info] Set log level to Info.
+[2025-06-06 15:22:43.509] [info] ------------------------------------------------------------------------
+[2025-06-06 15:22:43.509] [info] Elapsed real time: 2 second(s).
+[2025-06-06 15:22:43.509] [info] Fri Jun  6 15:22:43 2025
+[2025-06-06 15:22:43.509] [warning] MocoCasADiSolver did NOT succeed:
+[2025-06-06 15:22:43.509] [warning]   Invalid_Number_Detected
+[2025-06-06 15:22:43.509] [info] ========================================================================
+[2025-06-06 15:23:32.615] [info] Loaded model SUBJ01_2d_optim from file SUBJ01_model_2d_optim.osim
+[2025-06-06 15:24:41.340] [info] Loaded model SUBJ01_2d_optim from file SUBJ01_model_2d_optim.osim
+[2025-06-06 15:24:53.179] [info] Loaded model SUBJ01_2d_optim from file SUBJ01_initial-model_2d.osim
+[2025-06-06 15:25:00.823] [info] Loaded model SUBJ01_2d_optim from file SUBJ01_initial-model_2d.osim
+[2025-06-06 15:27:54.383] [info] Loaded model SUBJ01_2d_optim from file SUBJ01_initial-model_2d.osim
+[2025-06-06 15:27:55.053] [info] Loaded model SUBJ01_2d_optim from file SUBJ01_initial-model_2d.osim
+[2025-06-06 15:28:39.640] [info] ========================================================================
+[2025-06-06 15:28:39.641] [info] MocoCasADiSolver starting.
+[2025-06-06 15:28:39.641] [info] Fri Jun  6 15:28:39 2025
+[2025-06-06 15:28:39.641] [info] ------------------------------------------------------------------------
+[2025-06-06 15:28:39.641] [cout] [info] Costs: (total: 4)
+[2025-06-06 15:28:39.641] [cout] [info]   state_tracking. MocoStateTrackingGoal, enabled: true, mode: cost, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/ground_pelvis/pelvis_tilt/value, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/ground_pelvis/pelvis_tx/value, weight: 0.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/ground_pelvis/pelvis_ty/value, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/hip_r/hip_flexion_r/value, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/hip_l/hip_flexion_l/value, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/back/lumbar_ext/value, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/knee_r/knee_angle_r/value, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/knee_l/knee_angle_l/value, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/ankle_r/ankle_angle_r/value, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/ankle_l/ankle_angle_l/value, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/ground_pelvis/pelvis_tilt/speed, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/ground_pelvis/pelvis_tx/speed, weight: 0.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/ground_pelvis/pelvis_ty/speed, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/hip_r/hip_flexion_r/speed, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/hip_l/hip_flexion_l/speed, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/back/lumbar_ext/speed, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/knee_r/knee_angle_r/speed, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/knee_l/knee_angle_l/speed, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/ankle_r/ankle_angle_r/speed, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         state: /jointset/ankle_l/ankle_angle_l/speed, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]   control_effort. MocoControlGoal, enabled: true, mode: cost, weight: 0.00100000
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/hamstrings_r, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/bifemsh_r, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/glut_max_r, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/iliopsoas_r, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/rect_fem_r, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/vasti_r, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/gastroc_r, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/soleus_r, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/dorsiflexors_r, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/hamstrings_l, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/bifemsh_l, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/glut_max_l, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/iliopsoas_l, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/rect_fem_l, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/vasti_l, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/gastroc_l, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/soleus_l, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/dorsiflexors_l, weight: 1.0
+[2025-06-06 15:28:39.641] [cout] [info]         control: /forceset/lumbar_ext_torque, weight: 0.1
+[2025-06-06 15:28:39.641] [cout] [info]   GRF_tracking_X. MocoContactTrackingGoal, enabled: true, mode: cost, weight: 0.1
+[2025-06-06 15:28:39.641] [cout] [info]         projection type: vector
+[2025-06-06 15:28:39.641] [cout] [info]         projection vector: ~[1,0,0]
+[2025-06-06 15:28:39.641] [cout] [info]         group 0: ExternalForce: grf1
+[2025-06-06 15:28:39.641] [cout] [info]             forces:
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R1
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R2
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R3
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R4
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R5
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R6
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R7
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R8
+[2025-06-06 15:28:39.641] [cout] [info]         group 1: ExternalForce: grf2
+[2025-06-06 15:28:39.641] [cout] [info]             forces:
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_L1
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_L2
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_L3
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_L4
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_L5
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_L6
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_L7
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_L8
+[2025-06-06 15:28:39.641] [cout] [info]         group 2: ExternalForce: grf4
+[2025-06-06 15:28:39.641] [cout] [info]             forces:
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R1
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R2
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R3
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R4
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R5
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R6
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R7
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R8
+[2025-06-06 15:28:39.641] [cout] [info]   GRF_tracking_Y. MocoContactTrackingGoal, enabled: true, mode: cost, weight: 0.1
+[2025-06-06 15:28:39.641] [cout] [info]         projection type: vector
+[2025-06-06 15:28:39.641] [cout] [info]         projection vector: ~[0,1,0]
+[2025-06-06 15:28:39.641] [cout] [info]         group 0: ExternalForce: grf1
+[2025-06-06 15:28:39.641] [cout] [info]             forces:
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R1
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R2
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R3
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R4
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R5
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R6
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R7
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R8
+[2025-06-06 15:28:39.641] [cout] [info]         group 1: ExternalForce: grf2
+[2025-06-06 15:28:39.641] [cout] [info]             forces:
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_L1
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_L2
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_L3
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_L4
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_L5
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_L6
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_L7
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_L8
+[2025-06-06 15:28:39.641] [cout] [info]         group 2: ExternalForce: grf4
+[2025-06-06 15:28:39.641] [cout] [info]             forces:
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R1
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R2
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R3
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R4
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R5
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R6
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R7
+[2025-06-06 15:28:39.641] [cout] [info]                 /forceset/Contact_Foot_Ground_R8
+[2025-06-06 15:28:39.641] [cout] [info] Endpoint constraints: (total: 3)
+[2025-06-06 15:28:39.641] [cout] [info]   initial_activation. MocoInitialActivationGoal, enabled: true, mode: endpoint_constraint
+[2025-06-06 15:28:39.641] [cout] [info]   speed. MocoAverageSpeedGoal, enabled: true, mode: endpoint_constraint
+[2025-06-06 15:28:39.641] [cout] [info]   symmetry. MocoPeriodicityGoal, enabled: true, mode: endpoint_constraint
+[2025-06-06 15:28:39.641] [cout] [info]         state periodicity pairs:
+[2025-06-06 15:28:39.641] [cout] [info]                 initial: /jointset/ground_pelvis/pelvis_tilt/value, final: /jointset/ground_pelvis/pelvis_tilt/value
+[2025-06-06 15:28:39.641] [cout] [info]                 initial: /jointset/ground_pelvis/pelvis_ty/value, final: /jointset/ground_pelvis/pelvis_ty/value
+[2025-06-06 15:28:39.641] [cout] [info]                 initial: /jointset/hip_r/hip_flexion_r/value, final: /jointset/hip_r/hip_flexion_r/value
+[2025-06-06 15:28:39.641] [cout] [info]                 initial: /jointset/hip_l/hip_flexion_l/value, final: /jointset/hip_l/hip_flexion_l/value
+[2025-06-06 15:28:39.641] [cout] [info]                 initial: /jointset/back/lumbar_ext/value, final: /jointset/back/lumbar_ext/value
+[2025-06-06 15:28:39.641] [cout] [info]                 initial: /jointset/knee_r/knee_angle_r/value, final: /jointset/knee_r/knee_angle_r/value
+[2025-06-06 15:28:39.641] [cout] [info]                 initial: /jointset/knee_l/knee_angle_l/value, final: /jointset/knee_l/knee_angle_l/value
+[2025-06-06 15:28:39.641] [cout] [info]                 initial: /jointset/ankle_r/ankle_angle_r/value, final: /jointset/ankle_r/ankle_angle_r/value
+[2025-06-06 15:28:39.641] [cout] [info]                 initial: /jointset/ankle_l/ankle_angle_l/value, final: /jointset/ankle_l/ankle_angle_l/value
+[2025-06-06 15:28:39.641] [cout] [info]                 initial: /jointset/ground_pelvis/pelvis_tilt/speed, final: /jointset/ground_pelvis/pelvis_tilt/speed
+[2025-06-06 15:28:39.641] [cout] [info]                 initial: /jointset/ground_pelvis/pelvis_ty/speed, final: /jointset/ground_pelvis/pelvis_ty/speed
+[2025-06-06 15:28:39.641] [cout] [info]                 initial: /jointset/hip_r/hip_flexion_r/speed, final: /jointset/hip_r/hip_flexion_r/speed
+[2025-06-06 15:28:39.641] [cout] [info]                 initial: /jointset/hip_l/hip_flexion_l/speed, final: /jointset/hip_l/hip_flexion_l/speed
+[2025-06-06 15:28:39.641] [cout] [info]                 initial: /jointset/back/lumbar_ext/speed, final: /jointset/back/lumbar_ext/speed
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /jointset/knee_r/knee_angle_r/speed, final: /jointset/knee_r/knee_angle_r/speed
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /jointset/knee_l/knee_angle_l/speed, final: /jointset/knee_l/knee_angle_l/speed
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /jointset/ankle_r/ankle_angle_r/speed, final: /jointset/ankle_r/ankle_angle_r/speed
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /jointset/ankle_l/ankle_angle_l/speed, final: /jointset/ankle_l/ankle_angle_l/speed
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /jointset/ground_pelvis/pelvis_tx/speed, final: /jointset/ground_pelvis/pelvis_tx/speed
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/hamstrings_r/activation, final: /forceset/hamstrings_r/activation
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/bifemsh_r/activation, final: /forceset/bifemsh_r/activation
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/glut_max_r/activation, final: /forceset/glut_max_r/activation
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/iliopsoas_r/activation, final: /forceset/iliopsoas_r/activation
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/rect_fem_r/activation, final: /forceset/rect_fem_r/activation
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/vasti_r/activation, final: /forceset/vasti_r/activation
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/gastroc_r/activation, final: /forceset/gastroc_r/activation
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/soleus_r/activation, final: /forceset/soleus_r/activation
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/dorsiflexors_r/activation, final: /forceset/dorsiflexors_r/activation
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/hamstrings_l/activation, final: /forceset/hamstrings_l/activation
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/bifemsh_l/activation, final: /forceset/bifemsh_l/activation
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/glut_max_l/activation, final: /forceset/glut_max_l/activation
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/iliopsoas_l/activation, final: /forceset/iliopsoas_l/activation
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/rect_fem_l/activation, final: /forceset/rect_fem_l/activation
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/vasti_l/activation, final: /forceset/vasti_l/activation
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/gastroc_l/activation, final: /forceset/gastroc_l/activation
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/soleus_l/activation, final: /forceset/soleus_l/activation
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/dorsiflexors_l/activation, final: /forceset/dorsiflexors_l/activation
+[2025-06-06 15:28:39.642] [cout] [info]         control periodicity pairs:
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/bifemsh_r, final: /forceset/bifemsh_r
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/hamstrings_r, final: /forceset/hamstrings_r
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/glut_max_r, final: /forceset/glut_max_r
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/vasti_r, final: /forceset/vasti_r
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/gastroc_r, final: /forceset/gastroc_r
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/iliopsoas_r, final: /forceset/iliopsoas_r
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/soleus_r, final: /forceset/soleus_r
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/rect_fem_r, final: /forceset/rect_fem_r
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/dorsiflexors_r, final: /forceset/dorsiflexors_r
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/hamstrings_l, final: /forceset/hamstrings_l
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/bifemsh_l, final: /forceset/bifemsh_l
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/glut_max_l, final: /forceset/glut_max_l
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/lumbar_ext_torque, final: /forceset/lumbar_ext_torque
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/iliopsoas_l, final: /forceset/iliopsoas_l
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/rect_fem_l, final: /forceset/rect_fem_l
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/gastroc_l, final: /forceset/gastroc_l
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/vasti_l, final: /forceset/vasti_l
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/soleus_l, final: /forceset/soleus_l
+[2025-06-06 15:28:39.642] [cout] [info]                 initial: /forceset/dorsiflexors_l, final: /forceset/dorsiflexors_l
+[2025-06-06 15:28:39.642] [cout] [info] Kinematic constraints: none
+[2025-06-06 15:28:39.642] [cout] [info] Path constraints: none
+[2025-06-06 15:28:39.642] [cout] [info] States: (total: 38)
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/hamstrings_r/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/knee_l/knee_angle_l/value. bounds: [-1.5708, 0] initial: [-0.411682, 0]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/bifemsh_r/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/glut_max_r/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/iliopsoas_r/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/rect_fem_r/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/gastroc_r/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/vasti_r/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/soleus_r/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/ground_pelvis/pelvis_tilt/speed. bounds: [-50, 50]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/dorsiflexors_r/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/ground_pelvis/pelvis_tilt/value. bounds: [-0.436332, 0.436332] initial: [-0.0653661, -0.0299632]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/hamstrings_l/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/bifemsh_l/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/ground_pelvis/pelvis_tx/speed. bounds: [-50, 50]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/glut_max_l/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/iliopsoas_l/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/rect_fem_l/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/gastroc_l/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/vasti_l/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/soleus_l/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/back/lumbar_ext/value. bounds: [-0.698132, 0.0872665] initial: [-0.124304, -0.0786954]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/dorsiflexors_l/activation. bounds: [0.01, 5]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/ground_pelvis/pelvis_tx/value. bounds: [-5, 5] initial: -0.00920347
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/knee_r/knee_angle_r/speed. bounds: [-50, 50]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/ankle_l/ankle_angle_l/value. bounds: [-0.610865, 0.349066] initial: [-0.210549, -0.0189753]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/ground_pelvis/pelvis_ty/value. bounds: [0.862101, 0.969516] initial: [0.863768, 0.969516]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/ankle_r/ankle_angle_r/value. bounds: [-0.610865, 0.349066] initial: [0.151805, 0.275704]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/hip_r/hip_flexion_r/value. bounds: [-0.349066, 1.0472] initial: [-0.313785, -0.00314685]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/back/lumbar_ext/speed. bounds: [-50, 50]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/knee_r/knee_angle_r/value. bounds: [-1.5708, 0] initial: [-0.576592, -0.116392]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/knee_l/knee_angle_l/speed. bounds: [-50, 50]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/hip_l/hip_flexion_l/value. bounds: [-0.349066, 1.0472] initial: [0.360985, 0.669042]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/ankle_l/ankle_angle_l/speed. bounds: [-50, 50]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/ground_pelvis/pelvis_ty/speed. bounds: [-50, 50]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/ankle_r/ankle_angle_r/speed. bounds: [-50, 50]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/hip_r/hip_flexion_r/speed. bounds: [-50, 50]
+[2025-06-06 15:28:39.642] [cout] [info]   /jointset/hip_l/hip_flexion_l/speed. bounds: [-50, 50]
+[2025-06-06 15:28:39.642] [cout] [info] Controls: (total: 19)
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/hamstrings_r. bounds: [0.01, 1]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/bifemsh_r. bounds: [0.01, 1]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/glut_max_r. bounds: [0.01, 1]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/iliopsoas_r. bounds: [0.01, 1]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/rect_fem_r. bounds: [0.01, 1]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/gastroc_r. bounds: [0.01, 1]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/vasti_r. bounds: [0.01, 1]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/soleus_r. bounds: [0.01, 1]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/dorsiflexors_r. bounds: [0.01, 1]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/hamstrings_l. bounds: [0.01, 1]
+[2025-06-06 15:28:39.642] [cout] [info]   /forceset/bifemsh_l. bounds: [0.01, 1]
+[2025-06-06 15:28:39.643] [cout] [info]   /forceset/glut_max_l. bounds: [0.01, 1]
+[2025-06-06 15:28:39.643] [cout] [info]   /forceset/lumbar_ext_torque. bounds: [-inf, inf]
+[2025-06-06 15:28:39.643] [cout] [info]   /forceset/iliopsoas_l. bounds: [0.01, 1]
+[2025-06-06 15:28:39.643] [cout] [info]   /forceset/rect_fem_l. bounds: [0.01, 1]
+[2025-06-06 15:28:39.643] [cout] [info]   /forceset/gastroc_l. bounds: [0.01, 1]
+[2025-06-06 15:28:39.643] [cout] [info]   /forceset/vasti_l. bounds: [0.01, 1]
+[2025-06-06 15:28:39.643] [cout] [info]   /forceset/soleus_l. bounds: [0.01, 1]
+[2025-06-06 15:28:39.643] [cout] [info]   /forceset/dorsiflexors_l. bounds: [0.01, 1]
+[2025-06-06 15:28:39.643] [cout] [info] Parameters: none
+[2025-06-06 15:28:40.352] [info] Number of threads: 8
+[2025-06-06 15:43:23.443] [info] Set log level to Info.
+[2025-06-06 15:43:23.445] [info] ------------------------------------------------------------------------
+[2025-06-06 15:43:23.445] [info] Elapsed real time: 884 second(s) (14 minute(s), 44 second(s)).
+[2025-06-06 15:43:23.445] [info] Fri Jun  6 15:43:23 2025
+[2025-06-06 15:43:23.445] [warning] MocoCasADiSolver did NOT succeed:
+[2025-06-06 15:43:23.445] [warning]   Restoration_Failed
+[2025-06-06 15:43:23.445] [info] ========================================================================
+[2025-06-06 16:00:39.631] [cout] [info] Exiting visualization.
+[2025-06-06 16:00:56.590] [info] Loaded model SUBJ01_2d_optim from file SUBJ01_initial-model_2d.osim
+[2025-06-06 16:00:57.476] [info] Loaded model SUBJ01_2d_optim from file SUBJ01_initial-model_2d.osim
+[2025-06-06 16:01:26.855] [info] ========================================================================
+[2025-06-06 16:01:26.855] [info] MocoCasADiSolver starting.
+[2025-06-06 16:01:26.855] [info] Fri Jun  6 16:01:26 2025
+[2025-06-06 16:01:26.855] [info] ------------------------------------------------------------------------
+[2025-06-06 16:01:26.855] [cout] [info] Costs: (total: 4)
+[2025-06-06 16:01:26.855] [cout] [info]   state_tracking. MocoStateTrackingGoal, enabled: true, mode: cost, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/ground_pelvis/pelvis_tilt/value, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/ground_pelvis/pelvis_tx/value, weight: 0.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/ground_pelvis/pelvis_ty/value, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/hip_r/hip_flexion_r/value, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/hip_l/hip_flexion_l/value, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/back/lumbar_ext/value, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/knee_r/knee_angle_r/value, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/knee_l/knee_angle_l/value, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/ankle_r/ankle_angle_r/value, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/ankle_l/ankle_angle_l/value, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/ground_pelvis/pelvis_tilt/speed, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/ground_pelvis/pelvis_tx/speed, weight: 0.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/ground_pelvis/pelvis_ty/speed, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/hip_r/hip_flexion_r/speed, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/hip_l/hip_flexion_l/speed, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/back/lumbar_ext/speed, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/knee_r/knee_angle_r/speed, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/knee_l/knee_angle_l/speed, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/ankle_r/ankle_angle_r/speed, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         state: /jointset/ankle_l/ankle_angle_l/speed, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]   control_effort. MocoControlGoal, enabled: true, mode: cost, weight: 0.00100000
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/hamstrings_r, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/bifemsh_r, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/glut_max_r, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/iliopsoas_r, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/rect_fem_r, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/vasti_r, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/gastroc_r, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/soleus_r, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/dorsiflexors_r, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/hamstrings_l, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/bifemsh_l, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/glut_max_l, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/iliopsoas_l, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/rect_fem_l, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/vasti_l, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/gastroc_l, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/soleus_l, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/dorsiflexors_l, weight: 1.0
+[2025-06-06 16:01:26.855] [cout] [info]         control: /forceset/lumbar_ext_torque, weight: 0.1
+[2025-06-06 16:01:26.855] [cout] [info]   GRF_tracking_X. MocoContactTrackingGoal, enabled: true, mode: cost, weight: 0.1
+[2025-06-06 16:01:26.855] [cout] [info]         projection type: vector
+[2025-06-06 16:01:26.855] [cout] [info]         projection vector: ~[1,0,0]
+[2025-06-06 16:01:26.855] [cout] [info]         group 0: ExternalForce: grf1
+[2025-06-06 16:01:26.855] [cout] [info]             forces:
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R1
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R2
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R3
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R4
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R5
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R6
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R7
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R8
+[2025-06-06 16:01:26.855] [cout] [info]         group 1: ExternalForce: grf2
+[2025-06-06 16:01:26.855] [cout] [info]             forces:
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_L1
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_L2
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_L3
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_L4
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_L5
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_L6
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_L7
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_L8
+[2025-06-06 16:01:26.855] [cout] [info]         group 2: ExternalForce: grf4
+[2025-06-06 16:01:26.855] [cout] [info]             forces:
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R1
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R2
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R3
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R4
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R5
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R6
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R7
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R8
+[2025-06-06 16:01:26.855] [cout] [info]   GRF_tracking_Y. MocoContactTrackingGoal, enabled: true, mode: cost, weight: 0.1
+[2025-06-06 16:01:26.855] [cout] [info]         projection type: vector
+[2025-06-06 16:01:26.855] [cout] [info]         projection vector: ~[0,1,0]
+[2025-06-06 16:01:26.855] [cout] [info]         group 0: ExternalForce: grf1
+[2025-06-06 16:01:26.855] [cout] [info]             forces:
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R1
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R2
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R3
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R4
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R5
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R6
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R7
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R8
+[2025-06-06 16:01:26.855] [cout] [info]         group 1: ExternalForce: grf2
+[2025-06-06 16:01:26.855] [cout] [info]             forces:
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_L1
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_L2
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_L3
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_L4
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_L5
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_L6
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_L7
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_L8
+[2025-06-06 16:01:26.855] [cout] [info]         group 2: ExternalForce: grf4
+[2025-06-06 16:01:26.855] [cout] [info]             forces:
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R1
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R2
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R3
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R4
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R5
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R6
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R7
+[2025-06-06 16:01:26.855] [cout] [info]                 /forceset/Contact_Foot_Ground_R8
+[2025-06-06 16:01:26.855] [cout] [info] Endpoint constraints: (total: 3)
+[2025-06-06 16:01:26.855] [cout] [info]   initial_activation. MocoInitialActivationGoal, enabled: true, mode: endpoint_constraint
+[2025-06-06 16:01:26.855] [cout] [info]   speed. MocoAverageSpeedGoal, enabled: true, mode: endpoint_constraint
+[2025-06-06 16:01:26.855] [cout] [info]   symmetry. MocoPeriodicityGoal, enabled: true, mode: endpoint_constraint
+[2025-06-06 16:01:26.855] [cout] [info]         state periodicity pairs:
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/ground_pelvis/pelvis_tilt/value, final: /jointset/ground_pelvis/pelvis_tilt/value
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/ground_pelvis/pelvis_ty/value, final: /jointset/ground_pelvis/pelvis_ty/value
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/hip_r/hip_flexion_r/value, final: /jointset/hip_r/hip_flexion_r/value
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/hip_l/hip_flexion_l/value, final: /jointset/hip_l/hip_flexion_l/value
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/back/lumbar_ext/value, final: /jointset/back/lumbar_ext/value
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/knee_r/knee_angle_r/value, final: /jointset/knee_r/knee_angle_r/value
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/knee_l/knee_angle_l/value, final: /jointset/knee_l/knee_angle_l/value
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/ankle_r/ankle_angle_r/value, final: /jointset/ankle_r/ankle_angle_r/value
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/ankle_l/ankle_angle_l/value, final: /jointset/ankle_l/ankle_angle_l/value
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/ground_pelvis/pelvis_tilt/speed, final: /jointset/ground_pelvis/pelvis_tilt/speed
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/ground_pelvis/pelvis_ty/speed, final: /jointset/ground_pelvis/pelvis_ty/speed
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/hip_r/hip_flexion_r/speed, final: /jointset/hip_r/hip_flexion_r/speed
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/hip_l/hip_flexion_l/speed, final: /jointset/hip_l/hip_flexion_l/speed
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/back/lumbar_ext/speed, final: /jointset/back/lumbar_ext/speed
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/knee_r/knee_angle_r/speed, final: /jointset/knee_r/knee_angle_r/speed
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/knee_l/knee_angle_l/speed, final: /jointset/knee_l/knee_angle_l/speed
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/ankle_r/ankle_angle_r/speed, final: /jointset/ankle_r/ankle_angle_r/speed
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/ankle_l/ankle_angle_l/speed, final: /jointset/ankle_l/ankle_angle_l/speed
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /jointset/ground_pelvis/pelvis_tx/speed, final: /jointset/ground_pelvis/pelvis_tx/speed
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/hamstrings_r/activation, final: /forceset/hamstrings_r/activation
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/bifemsh_r/activation, final: /forceset/bifemsh_r/activation
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/glut_max_r/activation, final: /forceset/glut_max_r/activation
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/iliopsoas_r/activation, final: /forceset/iliopsoas_r/activation
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/rect_fem_r/activation, final: /forceset/rect_fem_r/activation
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/vasti_r/activation, final: /forceset/vasti_r/activation
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/gastroc_r/activation, final: /forceset/gastroc_r/activation
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/soleus_r/activation, final: /forceset/soleus_r/activation
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/dorsiflexors_r/activation, final: /forceset/dorsiflexors_r/activation
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/hamstrings_l/activation, final: /forceset/hamstrings_l/activation
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/bifemsh_l/activation, final: /forceset/bifemsh_l/activation
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/glut_max_l/activation, final: /forceset/glut_max_l/activation
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/iliopsoas_l/activation, final: /forceset/iliopsoas_l/activation
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/rect_fem_l/activation, final: /forceset/rect_fem_l/activation
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/vasti_l/activation, final: /forceset/vasti_l/activation
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/gastroc_l/activation, final: /forceset/gastroc_l/activation
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/soleus_l/activation, final: /forceset/soleus_l/activation
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/dorsiflexors_l/activation, final: /forceset/dorsiflexors_l/activation
+[2025-06-06 16:01:26.856] [cout] [info]         control periodicity pairs:
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/bifemsh_r, final: /forceset/bifemsh_r
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/hamstrings_r, final: /forceset/hamstrings_r
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/glut_max_r, final: /forceset/glut_max_r
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/vasti_r, final: /forceset/vasti_r
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/gastroc_r, final: /forceset/gastroc_r
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/iliopsoas_r, final: /forceset/iliopsoas_r
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/soleus_r, final: /forceset/soleus_r
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/rect_fem_r, final: /forceset/rect_fem_r
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/dorsiflexors_r, final: /forceset/dorsiflexors_r
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/hamstrings_l, final: /forceset/hamstrings_l
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/bifemsh_l, final: /forceset/bifemsh_l
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/glut_max_l, final: /forceset/glut_max_l
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/lumbar_ext_torque, final: /forceset/lumbar_ext_torque
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/iliopsoas_l, final: /forceset/iliopsoas_l
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/rect_fem_l, final: /forceset/rect_fem_l
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/gastroc_l, final: /forceset/gastroc_l
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/vasti_l, final: /forceset/vasti_l
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/soleus_l, final: /forceset/soleus_l
+[2025-06-06 16:01:26.856] [cout] [info]                 initial: /forceset/dorsiflexors_l, final: /forceset/dorsiflexors_l
+[2025-06-06 16:01:26.856] [cout] [info] Kinematic constraints: none
+[2025-06-06 16:01:26.856] [cout] [info] Path constraints: none
+[2025-06-06 16:01:26.856] [cout] [info] States: (total: 38)
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/hamstrings_r/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/knee_l/knee_angle_l/value. bounds: [-1.5708, 0] initial: [-0.411682, 0]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/bifemsh_r/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/glut_max_r/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/iliopsoas_r/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/rect_fem_r/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/gastroc_r/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/vasti_r/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/soleus_r/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/ground_pelvis/pelvis_tilt/speed. bounds: [-50, 50]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/dorsiflexors_r/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/ground_pelvis/pelvis_tilt/value. bounds: [-0.436332, 0.436332] initial: [-0.0653661, -0.0299632]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/hamstrings_l/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/bifemsh_l/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/ground_pelvis/pelvis_tx/speed. bounds: [-50, 50]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/glut_max_l/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/iliopsoas_l/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/rect_fem_l/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/gastroc_l/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/vasti_l/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/soleus_l/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/back/lumbar_ext/value. bounds: [-0.698132, 0.0872665] initial: [-0.124304, -0.0786954]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/dorsiflexors_l/activation. bounds: [0.01, 1.5]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/ground_pelvis/pelvis_tx/value. bounds: [-5, 5] initial: -0.00920347
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/knee_r/knee_angle_r/speed. bounds: [-50, 50]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/ankle_l/ankle_angle_l/value. bounds: [-0.610865, 0.349066] initial: [-0.210549, -0.0189753]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/ground_pelvis/pelvis_ty/value. bounds: [0.862101, 0.969516] initial: [0.863768, 0.969516]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/ankle_r/ankle_angle_r/value. bounds: [-0.610865, 0.349066] initial: [0.151805, 0.275704]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/hip_r/hip_flexion_r/value. bounds: [-0.349066, 1.0472] initial: [-0.313785, -0.00314685]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/back/lumbar_ext/speed. bounds: [-50, 50]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/knee_r/knee_angle_r/value. bounds: [-1.5708, 0] initial: [-0.576592, -0.116392]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/knee_l/knee_angle_l/speed. bounds: [-50, 50]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/hip_l/hip_flexion_l/value. bounds: [-0.349066, 1.0472] initial: [0.360985, 0.669042]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/ankle_l/ankle_angle_l/speed. bounds: [-50, 50]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/ground_pelvis/pelvis_ty/speed. bounds: [-50, 50]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/ankle_r/ankle_angle_r/speed. bounds: [-50, 50]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/hip_r/hip_flexion_r/speed. bounds: [-50, 50]
+[2025-06-06 16:01:26.856] [cout] [info]   /jointset/hip_l/hip_flexion_l/speed. bounds: [-50, 50]
+[2025-06-06 16:01:26.856] [cout] [info] Controls: (total: 19)
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/hamstrings_r. bounds: [0.01, 1]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/bifemsh_r. bounds: [0.01, 1]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/glut_max_r. bounds: [0.01, 1]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/iliopsoas_r. bounds: [0.01, 1]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/rect_fem_r. bounds: [0.01, 1]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/gastroc_r. bounds: [0.01, 1]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/vasti_r. bounds: [0.01, 1]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/soleus_r. bounds: [0.01, 1]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/dorsiflexors_r. bounds: [0.01, 1]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/hamstrings_l. bounds: [0.01, 1]
+[2025-06-06 16:01:26.856] [cout] [info]   /forceset/bifemsh_l. bounds: [0.01, 1]
+[2025-06-06 16:01:26.857] [cout] [info]   /forceset/glut_max_l. bounds: [0.01, 1]
+[2025-06-06 16:01:26.857] [cout] [info]   /forceset/lumbar_ext_torque. bounds: [-inf, inf]
+[2025-06-06 16:01:26.857] [cout] [info]   /forceset/iliopsoas_l. bounds: [0.01, 1]
+[2025-06-06 16:01:26.857] [cout] [info]   /forceset/rect_fem_l. bounds: [0.01, 1]
+[2025-06-06 16:01:26.857] [cout] [info]   /forceset/gastroc_l. bounds: [0.01, 1]
+[2025-06-06 16:01:26.857] [cout] [info]   /forceset/vasti_l. bounds: [0.01, 1]
+[2025-06-06 16:01:26.857] [cout] [info]   /forceset/soleus_l. bounds: [0.01, 1]
+[2025-06-06 16:01:26.857] [cout] [info]   /forceset/dorsiflexors_l. bounds: [0.01, 1]
+[2025-06-06 16:01:26.857] [cout] [info] Parameters: none
+[2025-06-06 16:01:27.465] [info] Number of threads: 8
+[2025-06-06 16:24:03.247] [info] Set log level to Info.
+[2025-06-06 16:24:03.248] [info] ------------------------------------------------------------------------
+[2025-06-06 16:24:03.248] [info] Elapsed real time: 1356 second(s) (22 minute(s), 36 second(s)).
+[2025-06-06 16:24:03.248] [info] Fri Jun  6 16:24:03 2025
+[2025-06-06 16:24:03.249] [warning] MocoCasADiSolver did NOT succeed:
+[2025-06-06 16:24:03.249] [warning]   Maximum_Iterations_Exceeded
+[2025-06-06 16:24:03.249] [info] ========================================================================
